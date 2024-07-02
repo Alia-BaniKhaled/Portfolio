@@ -87,7 +87,7 @@ sr.reveal('.services__card, .projects__card',{interval:100})
 
   /*========================typing animation===============*/
   var typed = new Typed(".typing",{
-    strings:["Fashion Designer"," Artist","3D Artist"],
+    strings:["Fashion Designer"," Painter","3D Artist"],
     typeSpeed:100,
     BackSpeed:100,
     loop:true
