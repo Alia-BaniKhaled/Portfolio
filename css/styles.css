@@ -997,36 +997,9 @@ ul#menu li:nth-child(5) {  background-size:cover }
 	transform-style: preserve-3d;
 	animation: rotation 30s infinite linear;
 }
-#carousel3d:hover{
-	animation-play-state: paused;
-}
-#carousel3d figure{
-	display: block;
-	position: absolute;
-	width: 300px;
-	height:180px;
-	left: 10px;
-	top: 10px;
-	background: rgb(0, 0, 0);
-	overflow: hidden;
-	border: solid 5px rgb(189, 180, 180);
-}
-#carousel3d figure:nth-child(1) {transform: rotateY(0deg) translateZ(450px);}
-#carousel3d figure:nth-child(2) { transform: rotateY(40deg) translateZ(450px);}
-#carousel3d figure:nth-child(3) { transform: rotateY(80deg) translateZ(450px);}
-#carousel3d figure:nth-child(4) { transform: rotateY(120deg) translateZ(450px);}
-#carousel3d figure:nth-child(5) { transform: rotateY(160deg) translateZ(450px);}
-#carousel3d figure:nth-child(6) { transform: rotateY(200deg) translateZ(450px);}
-#carousel3d figure:nth-child(7) { transform: rotateY(240deg) translateZ(450px);}
-#carousel3d figure:nth-child(8) { transform: rotateY(280deg) translateZ(450px);}
-#carousel3d figure:nth-child(9) { transform: rotateY(320deg) translateZ(450px);}
-#carousel3d figure:nth-child(10) { transform: rotateY(320deg) translateZ(450px);}
-#carousel3d figure:nth-child(11) { transform: rotateY(320deg) translateZ(450px);}
-#carousel3d figure:nth-child(12) { transform: rotateY(320deg) translateZ(550px);}
 
 
 .special-figure img {
-  -webkit-filter: grayscale(1);
   cursor: pointer;
   transition: all .5s ease;
 }
