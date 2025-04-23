@@ -1135,6 +1135,7 @@ ul#menu li:nth-child(5) {  background-size:cover }
 
 .media-grid img,
 .media-grid video {
+  filter: none;
   width: 100%;
   height: 250px;
   object-fit: cover;
